@@ -6,7 +6,7 @@ class NodeMailer {
     static initializeTransport() {
         return nodeMailer.createTransport(SendGrid({
             auth: {
-                api_key: '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'
+                api_key: ''
             }
         }));
     }
